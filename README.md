@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 개인 프로젝트 관리 페이지
 
-## Getting Started
+## 개요
 
-First, run the development server:
+개인 프로젝트를 효율적으로 관리할 수 있는 관리자용 페이지입니다. 이 페이지를 통해 프로젝트를 모니터링하고 필요한 기능을 수행할 수 있습니다.
 
-```bash
+## 주요 기능
+
+- 프로젝트 관리
+- 데이터 분석 및 보고
+- 시스템 설정 변경
+- 로그 및 오류 모니터링
+
+## 기술 스택
+
+- 프론트엔드: React, Next.js, TypeScript
+- 백엔드: Node.js, Express
+- 데이터베이스: PostgreSQL
+
+## 설치 및 실행 방법
+
+```sh
+# 프로젝트 클론
+git clone <repository_url>
+cd <project_directory>
+
+# 패키지 설치
+npm install
+
+# 개발 서버 실행
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 기여 방법
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. 이슈를 확인하고 필요한 작업을 선택합니다.
+2. 새로운 브랜치를 생성하고 작업을 수행합니다.
+3. PR을 생성하여 코드 리뷰를 요청합니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 라이선스
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+이 프로젝트는 MIT 라이선스를 따릅니다.
