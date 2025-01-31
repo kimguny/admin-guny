@@ -5,7 +5,6 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import { RecoilRoot } from "recoil";
 import CssBaseline from "@mui/material/CssBaseline";
-import Header from "@/components/Layout/Header";
 import theme from "@/theme";
 
 const queryClient = new QueryClient();
@@ -17,7 +16,6 @@ export default function ClientProviders({ children }: { children: React.ReactNod
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Header />
             {children}
           </ThemeProvider>
         </AppRouterCacheProvider>
